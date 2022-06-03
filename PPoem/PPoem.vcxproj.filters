@@ -15,12 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\include\Test.h">
+    <ClInclude Include="source\PPoem\Core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PPoem\Application.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\PPoem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PPoem\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\source\Test.cpp">
+    <ClCompile Include="source\PPoem\Application.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
