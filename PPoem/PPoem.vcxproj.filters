@@ -27,9 +27,15 @@
     <ClInclude Include="source\PPoem\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="source\PPoem\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\PPoem\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PPoem\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

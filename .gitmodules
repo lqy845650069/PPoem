@@ -1,0 +1,3 @@
+[submodule "PPoem/ThirdParty/spdlog"]
+	path = PPoem/ThirdParty/spdlog
+	url = https://github.com/gabime/spdlog

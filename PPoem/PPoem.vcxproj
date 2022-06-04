@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\PPoem\Log.h" />
     <ClInclude Include="source\include\PPoem.h" />
     <ClInclude Include="source\PPoem\Application.h" />
     <ClInclude Include="source\PPoem\Core.h" />
     <ClInclude Include="source\PPoem\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\PPoem\Log.cpp" />
     <ClCompile Include="source\PPoem\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -71,6 +73,7 @@
       <PreprocessorDefinitions>PP_PLATFORM_WINDOWS;PP_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)PPoem\ThirdParty\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -86,6 +89,7 @@
       <PreprocessorDefinitions>PP_PLATFORM_WINDOWS;PP_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)PPoem\ThirdParty\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
